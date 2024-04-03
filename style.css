@@ -1,0 +1,9 @@
+.title {
+  font-family: arial;
+  font-size: 72px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 0;
+  height: 100vh;
+}
