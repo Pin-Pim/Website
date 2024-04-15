@@ -1,9 +1,23 @@
-.title {
+body {
+  background-color: blanchedalmond;
+}
+
+#text-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#moving-text {
   font-family: arial;
+  color: rgb(20, 20, 20);
   font-size: 72px;
   align-items: center;
   justify-content: center;
   display: flex;
   margin: 0;
   height: 100vh;
+  text-shadow: 0.3vh 0.3vh 10px rgb(60, 60, 60);
+  white-space: nowrap;
 }
