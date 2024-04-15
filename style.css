@@ -3,25 +3,30 @@ body {
 }
 
 .spacer {
-  height: 50vh;
+  height: 100vh;
 }
 
 .header {
   font-size: 72px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  width: 200%;
+  transform: translateX(-100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.header::-webkit-scrollbar {
+  display: none;
 }
 
 @keyframes spin {
   to {
-    transform: translateX(1000px);
+    transform: translateX(4px);
   }
 }
 
