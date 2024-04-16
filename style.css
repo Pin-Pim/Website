@@ -1,0 +1,12 @@
+body {
+  background-image: url("images/Grey.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.main-header {
+  font-family: "Literata", serif;
+  font-size: 120px;
+  color: white;
+}
